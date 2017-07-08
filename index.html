@@ -1,0 +1,104 @@
+<!DOCTYPE HTML>
+<html>
+
+	<head>
+	
+		<title>Bonanza Coffee Generator</title>
+		
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		
+		<link rel="shortcut icon" href="favicon.ico">
+		<link rel="stylesheet" type="text/css" href="flat-ui.min.css" />
+
+		<style>
+			body {
+				color: #323232;
+				display: table;
+				max-width: 1200px;
+				margin: 0 auto;
+				padding: 10px;
+				text-align: center;
+				font-family: Helvetica, Arial, sans-serif;
+				margin-top: 30px;
+			}
+
+			.row {
+				text-align: center;
+				margin-top: 60px;
+			}
+
+			.wrapper-input {
+				margin-top: 60px;
+			}
+
+			.row h1, .row h2 {
+				color: #f98a04;
+			}
+
+			form {
+				max-width: 500px;
+				margin: 0 auto;
+				font-size: 150%;
+			}
+
+			input {
+				text-transform: uppercase;
+				letter-spacing: 3px;
+			}
+
+			.wrapper-output h2 {
+				text-transform: uppercase;
+			}
+			.drink-output {
+				font-size: 120%;
+				font-weight: bold;
+			}
+
+			a {
+    			color: #fff;
+    		}
+
+    		.episode-link a {
+    			color: #2c3e50;
+    		}
+		</style>
+
+		</head>
+
+		<body>
+
+			<h2>Bonanza Coffee Generator</h2>
+
+			<div class="row">
+
+				<div class="wrapper-input">
+					<h2>Enter your name to find your perfect Bonanaza Coffee</h2>
+					<form id="name-input">
+						<input type="text" placeholder="Your name or initials" id="drink-name">
+						<p class="button"><a href="#" id="get-drink">GET MY COFFEE</a></p>
+					</form>
+				</div>
+
+				<div class="wrapper-output" style="display:none;">
+
+					<h2>Presenting "The <span></span>"</h2>
+
+					<p class="drink-output"></p>
+
+					<p class="button"><a href="#" class="another">Make another one</a></p>
+
+				</div>
+
+				<p class="button"><a class="twitter-share" target="_blank" href="https://twitter.com/intent/tweet?text=I created my &23;bonanzacoffee, what's yours?&amp;url=http://code.robblewis.me/bonanzacoffee">tweet my #bonanzacoffee</a></p>
+
+				<p class="episode-link"><a href="http://relay.fm/bonanza/25">http://relay.fm/bonanza/25</a></p>
+
+			</div>
+
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		<script src="scripts.js"></script>
+
+	</body>
+</html>
